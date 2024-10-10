@@ -13,7 +13,7 @@ setup(
         ],
         classifiers=[
             "Programming Language :: Python :: 3",
-            "License :: OSI Approved :: MPL 2.0 License",
+            "License-File: LICENSE.txt",
             "Operating System :: OS Independent",
         ]
 )
