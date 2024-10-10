@@ -12,7 +12,7 @@ Features
 - Automatically searches for j2 files to be used for prompts, which can also be manually set
 - render_template method can take a .j2 extension or not
 - Nested templates work
-- Manager is a singleton which can be loaded from anywhere in your app
+- PromptManager is a singleton which can be loaded from anywhere in your app
 
 ## Installation
 
@@ -26,7 +26,7 @@ Features
 ### Simple example to render a prompt
 Filename: `example_template.j2`
 ```jinja2
-You're a world class project manager working on {project}, and you're being asked about the: {topic}
+You're a world class project manager working on {{ project }}, and you're being asked about the: {topic}
 
 Gather all the information about the project, and determine an acceptable 
 response
