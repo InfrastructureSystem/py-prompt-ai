@@ -1,12 +1,6 @@
 # Python AI Prompt Manager
 
 The Python AI Prompt Manager is a simple utility designed to help manage and render Jinja2 (.j2) templates for AI prompts or any other text-based templates. This tool recursively searches for prompt folders within a given directory structure, making it easy to organize and reuse templates. It supports template rendering with custom contexts, and it provides functionality to easily reload new templates as they are added to the project.
-Features
-
-    Singleton Pattern: Ensures only one instance of PromptManager is active at any time.
-    Jinja2 Template Rendering: Automatically finds .j2 files in directories named prompts and renders them with custom contexts.
-    Automatic Search and Reload: The manager automatically searches for prompt folders, and it can reload template paths as new ones are added.
-    Easy Context Management: Supports passing Python dictionaries to be used as context variables in the templates.
 
 ## Features
 - Automatically searches for j2 files to be used for prompts, which can also be manually set
