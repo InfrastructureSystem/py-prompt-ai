@@ -20,7 +20,7 @@ The Python AI Prompt Manager is a simple utility designed to help manage and ren
 ### Simple example to render a prompt
 Filename: `example_template.j2`
 ```jinja2
-You're a world class project manager working on {{ project }}, and you're being asked about the: {topic}
+You're a world class project manager working on {{ project }}, and you're being asked about the: {{topic}}
 
 Gather all the information about the project, and determine an acceptable 
 response
